@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/22/44/sky-1281662_960_720.jpg');
+    background-size: cover;
+  /* background-sze: 100%;
+     background-sze: 100vw ;vh
+     background-sze: auto auto;
+    são outras opções de ajuste de tamanho*/
+    font-family: whitney book;
+    height:100vh
+  }
+  
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .menu {
+    background-color:#212121;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menu li{
+    list-style:none;
+  }
+  
+  .site-title,
+  .site-subtitle  {
+    color: whitesmoke;
+    text-align: center;
+  }
+  .site-subtitle {
+    font-family: whitney ligth;
+    font-style: italic;
+  }
